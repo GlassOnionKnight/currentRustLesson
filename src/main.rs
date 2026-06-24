@@ -1,3 +1,8 @@
+
+
 fn main() {
-    println!("Hello, world!");
+    let message = "Name: Alfredo, Weight";
+    let weight = 190;
+
+    println!("{}{}", message, weight);
 }
