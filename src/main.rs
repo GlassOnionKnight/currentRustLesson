@@ -1,10 +1,15 @@
-
-
 fn main() {
-    let message = "Name: Alfredo, Weight";
-    let weight = 190.0;
+    let proceed = true;
+    if proceed {
+        println!("Proceeding");
+    } else {
+        println!("Operation aborted.");
+    }
 
-    let kilos = weight / 2.2;
-    println!("{}{}", message, weight);
-    println!("Weight in kilos: {}", kilos);
+    let height = 190;
+    if height > 180 {
+        println!("You are tall!");
+    } else {
+        println!("You are not that tall.");
+    }
 }
